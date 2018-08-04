@@ -1,0 +1,73 @@
+    {
+    box-sizing: border-box;
+    text-align: center;
+}
+
+#top{
+    background-color: white;
+}
+
+.links {
+    font-size: 14px;
+    float: right;
+    margin-top: 10px;
+    margin-right: 200px;
+}
+
+.thumbnails {
+    height: 300px;
+}
+
+h4{
+    color: pink;
+    background-color: aqua;
+    text-align: center;
+    width: 100px;
+}
+
+li {
+    display: inline-block;
+}
+
+#name {
+    width: 35%;
+    font-size: 30px;
+    color: pink;
+    background: black;
+    margin: 14px;
+    border: outset pink 2px;
+    padding: 14px;
+    margin-left: 200px;
+}
+
+#profile-image {
+    float: left;
+    margin: 14px;
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+#portfolio {
+    background-color: azure;
+    width: 960px;
+    clear: both;
+    font-size: 20px;
+    margin: auto;
+    border: 3px outset pink;
+    padding: 20px;
+    margin-bottom: 69px;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-top-style: solid;
+    border-top-color: aqua;
+    border-top-width: 10px;
+    background-color: pink;
+    text-align: center;    
+}
